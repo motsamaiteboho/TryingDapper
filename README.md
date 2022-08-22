@@ -48,4 +48,4 @@ string CREATE_PIZZA_TABLE = @"create table if not exists pizza (
 
 ## last Step : close the connection since I didn't use the Using functionality  when I created my database connection:
 
- ``connection.Close()```
+ ```connection.Close()```
