@@ -12,8 +12,8 @@
   
 ## Step 6: Install NuGet packages:
 
--Install package Npgsql
--Install package Dapper
+- Install package Npgsql
+- Install package Dapper
 
 ## step 7: in program class add the namespaces:
 
