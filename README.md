@@ -22,7 +22,7 @@
 
 ## Step 8: Create connection string:
 
-- ```string connectionString = "Server=myservername;Port=5432;Database=myDataBase;User Id=myUsername;Password=myPassword";```
+ ```string connectionString = "Server=myservername;Port=5432;Database=myDataBase;User Id=myUsername;Password=myPassword";```
 
 ## Step 9: Create connection to the server:
 ```
@@ -48,4 +48,4 @@ string CREATE_PIZZA_TABLE = @"create table if not exists pizza (
 
 ## last Step : close the connection since I didn't use the Using functionality  when I created my database connection:
 
-- connection.Close()
+ ``connection.Close()```
