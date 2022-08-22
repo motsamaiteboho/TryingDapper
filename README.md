@@ -17,8 +17,8 @@
 
 ## step 7: in program class add the namespaces:
 
-using Npgsql;
-using Dapper;
+- using Npgsql;
+- using Dapper;
 
 ## Step 8: Create connection string:
 
@@ -40,7 +40,7 @@ string CREATE_PIZZA_TABLE = @"create table if not exists pizza (
     );" ;
 ## step 11: Instert into data into the table:
 
--You can insert the data the same way as with SQLite
+- You can insert the data the same way as with SQLite
 
 ## last Step : close the connection since I didn't use the Using functionality  when I created my database connection:
 
