@@ -25,20 +25,23 @@
 - ```string connectionString = "Server=myservername;Port=5432;Database=myDataBase;User Id=myUsername;Password=myPassword";```
 
 ## Step 9: Create connection to the server:
-```var connection = new NpgsqlConnection(connectionString);
+```
+var connection = new NpgsqlConnection(connectionString);
     connection.Open();
-    ```
+```
     
 ## step 10: create the pizza table using ddl command:
 
-```string CREATE_PIZZA_TABLE = @"create table if not exists pizza (
+```
+string CREATE_PIZZA_TABLE = @"create table if not exists pizza (
 	id  serial NOT NULL,
 	type  character varying(45) NOT NULL,
 	size   character varying(45) NOT NULL,
 	price  decimal NOT NULL,
     PRIMARY KEY (id) 
     );" ;
-   ```
+```
+
 ## step 11: Instert into data into the table:
 
 - You can insert the data the same way as with SQLite
